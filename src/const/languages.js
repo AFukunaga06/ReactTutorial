@@ -1,11 +1,4 @@
-const LANGUAGES = [
-  'JavaScript',
-  'C++',
-  'Ruby',
-  'Java',
-  'PHP',
-  'Go'
-];
+const LANGUAGES = [ ];
 
 export const getLanguages = () => {
   return new Promise((resolve) => {
